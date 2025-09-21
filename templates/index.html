@@ -1,0 +1,426 @@
+{% extends "base.html" %}
+
+{% block title %}Ana Sayfa - PDF Öğrenme Uygulaması{% endblock %}
+
+{% block content %}
+<div class="hero">
+    <div class="container">
+        <div class="text-center">
+            <h1 class="text-3xl font-bold mb-4">PDF Öğrenme Uygulaması</h1>
+            <p class="text-xl mb-6">PDF eğitim dokümanlarınızı yükleyin, otomatik özetler alın ve kişiselleştirilmiş quizlerle öğrenmenizi pekiştirin.</p>
+            
+            <div class="flex gap-4 justify-center">
+                <button onclick="startUpload()" class="btn">
+                    <i class="fas fa-upload"></i>
+                    PDF Yükle ve Başla
+                </button>
+                <a href="/library" class="btn btn-secondary">
+                    <i class="fas fa-book"></i>
+                    Kütüphanemi Gör
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="features">
+    <div class="container">
+        <h2 class="text-2xl font-bold text-center mb-6">Özellikler</h2>
+        <div class="grid grid-3">
+            <div class="card text-center">
+                <div class="mb-4">
+                    <i class="fas fa-upload" style="font-size: 3rem; color: #667eea;"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Kolay PDF Yükleme</h3>
+                <p class="text-gray-600">Sürükle-bırak ile PDF dosyalarınızı kolayca yükleyin. Desteklenen tüm PDF formatları ile çalışır.</p>
+            </div>
+
+            <div class="card text-center">
+                <div class="mb-4">
+                    <i class="fas fa-brain" style="font-size: 3rem; color: #667eea;"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Akıllı Analiz</h3>
+                <p class="text-gray-600">Yapay zeka teknolojisi ile PDF içeriğinizi analiz eder ve anlamlı özetler oluşturur.</p>
+            </div>
+
+            <div class="card text-center">
+                <div class="mb-4">
+                    <i class="fas fa-target" style="font-size: 3rem; color: #667eea;"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Seviyeli Quizler</h3>
+                <p class="text-gray-600">Kolay, orta ve zor seviyelerde quiz soruları oluşturur. Her seviyeye uygun öğrenme deneyimi sunar.</p>
+            </div>
+
+            <div class="card text-center">
+                <div class="mb-4">
+                    <i class="fas fa-redo" style="font-size: 3rem; color: #667eea;"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Tekrar Sistemi</h3>
+                <p class="text-gray-600">Yanlış cevapladığınız soruları tekrar sorar ve öğrenmenizi pekiştirir.</p>
+            </div>
+
+            <div class="card text-center">
+                <div class="mb-4">
+                    <i class="fas fa-download" style="font-size: 3rem; color: #667eea;"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">İndirilebilir İçerik</h3>
+                <p class="text-gray-600">Özetlerinizi ve quizlerinizi bilgisayarınıza indirerek offline çalışabilirsiniz.</p>
+            </div>
+
+            <div class="card text-center">
+                <div class="mb-4">
+                    <i class="fas fa-bolt" style="font-size: 3rem; color: #667eea;"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Hızlı ve Etkili</h3>
+                <p class="text-gray-600">Zaman tasarrufu sağlar ve kişiselleştirilmiş öğrenme deneyimi sunar.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="stats">
+    <div class="container">
+        <div class="grid grid-2">
+            <div class="text-center">
+                <h3 class="text-3xl font-bold text-green-600 mb-2">1000+</h3>
+                <p class="text-gray-600">İşlenen PDF</p>
+            </div>
+            <div class="text-center">
+                <h3 class="text-3xl font-bold text-green-600 mb-2">5000+</h3>
+                <p class="text-gray-600">Oluşturulan Quiz</p>
+            </div>
+            <div class="text-center">
+                <h3 class="text-3xl font-bold text-green-600 mb-2">95%</h3>
+                <p class="text-gray-600">Memnuniyet Oranı</p>
+            </div>
+            <div class="text-center">
+                <h3 class="text-3xl font-bold text-green-600 mb-2">24/7</h3>
+                <p class="text-gray-600">Erişilebilirlik</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Upload Modal -->
+<div id="uploadModal" class="hidden" style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); z-index: 2000; display: none; align-items: center; justify-content: center;">
+    <div class="card" style="max-width: 600px; width: 90%; margin: 0; position: relative; z-index: 2001;">
+        <div class="text-center mb-4">
+            <h2 class="text-2xl font-bold">PDF Yükle</h2>
+            <p class="text-gray-600">PDF dosyanızı seçin veya sürükleyin</p>
+        </div>
+        
+        <div id="uploadArea" class="upload-area" onclick="document.getElementById('fileInput').click()">
+            <i class="fas fa-cloud-upload-alt" style="font-size: 3rem; color: #667eea; margin-bottom: 1rem;"></i>
+            <h3 class="text-lg font-semibold mb-2">Dosyayı buraya sürükleyin veya tıklayın</h3>
+            <p class="text-gray-600 mb-4">Desteklenen format: PDF</p>
+            <p class="text-sm text-gray-500">Maksimum dosya boyutu: 16MB</p>
+        </div>
+        
+        <input type="file" id="fileInput" accept=".pdf" style="display: none;">
+        
+        <div id="processingArea" class="hidden">
+            <div class="text-center">
+                <div class="loading mb-4"></div>
+                <h3 class="text-lg font-semibold mb-2">İşlem Devam Ediyor</h3>
+                <p class="text-gray-600 mb-4">PDF analiz ediliyor ve quiz oluşturuluyor...</p>
+                <div class="progress-bar">
+                    <div id="progressFill" class="progress-fill" style="width: 0%;"></div>
+                </div>
+                <p id="progressText" class="text-sm text-gray-500 mt-2">0%</p>
+            </div>
+        </div>
+        
+        <div class="flex gap-4 justify-center mt-6">
+            <button id="cancelBtn" class="btn btn-secondary" onclick="closeUploadModal()">
+                <i class="fas fa-times"></i>
+                İptal
+            </button>
+        </div>
+        
+    </div>
+</div>
+
+<style>
+.hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.features {
+    background: white;
+    padding: 4rem 0;
+}
+
+.stats {
+    background: #f8fafc;
+    padding: 3rem 0;
+}
+
+.hero h1 {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hero p {
+    opacity: 0.9;
+        }
+
+        /* Mesaj toast stilleri */
+        .message-toast {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            padding: 12px 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+            max-width: 400px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        .message-toast.show {
+            transform: translateX(0);
+        }
+
+        .message-success {
+            background: #10b981;
+            color: white;
+            border-left: 4px solid #059669;
+        }
+
+        .message-error {
+            background: #ef4444;
+            color: white;
+            border-left: 4px solid #dc2626;
+        }
+
+        .message-info {
+            background: #3b82f6;
+            color: white;
+            border-left: 4px solid #2563eb;
+        }
+
+        .message-content {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .message-content i {
+            font-size: 16px;
+        }
+    </style>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+console.log('PDF Learning App JavaScript loaded');
+
+let currentPdfId = null;
+
+function startUpload() {
+    console.log('startUpload function called');
+    const modal = document.getElementById('uploadModal');
+    modal.style.display = 'flex';
+    modal.classList.remove('hidden');
+    document.getElementById('uploadArea').classList.remove('hidden');
+    document.getElementById('processingArea').classList.add('hidden');
+    document.getElementById('fileInput').value = '';
+}
+
+// Test function
+function testFunction() {
+    console.log('Test function called - JavaScript is working!');
+    alert('JavaScript çalışıyor!');
+}
+
+function closeUploadModal() {
+    console.log('closeUploadModal function called');
+    const modal = document.getElementById('uploadModal');
+    modal.style.display = 'none';
+    modal.classList.add('hidden');
+    currentPdfId = null;
+}
+
+// Wait for DOM to load
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM loaded, setting up event listeners');
+    
+    // File input change event
+    const fileInput = document.getElementById('fileInput');
+    if (fileInput) {
+        fileInput.addEventListener('change', function(e) {
+            console.log('File input changed');
+            if (e.target.files.length > 0) {
+                console.log('File selected:', e.target.files[0]);
+                uploadFile(e.target.files[0]);
+            }
+        });
+    }
+
+    // Drag and drop events
+    const uploadArea = document.getElementById('uploadArea');
+    if (uploadArea) {
+        uploadArea.addEventListener('dragover', function(e) {
+            console.log('Drag over event');
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+
+        uploadArea.addEventListener('dragleave', function(e) {
+            console.log('Drag leave event');
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+        });
+
+        uploadArea.addEventListener('drop', function(e) {
+            console.log('Drop event');
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            
+            if (e.dataTransfer.files.length > 0) {
+                console.log('Files dropped:', e.dataTransfer.files);
+                uploadFile(e.dataTransfer.files[0]);
+            }
+        });
+    }
+});
+
+async function uploadFile(file) {
+    console.log('uploadFile function called with file:', file);
+    
+    if (!file.name.toLowerCase().endsWith('.pdf')) {
+        console.log('Invalid file type');
+        showAlert('Lütfen geçerli bir PDF dosyası seçin', 'error');
+        return;
+    }
+
+    if (file.size > 16 * 1024 * 1024) {
+        console.log('File too large');
+        showAlert('Dosya boyutu 16MB\'dan küçük olmalıdır', 'error');
+        return;
+    }
+
+    console.log('File validation passed, showing processing area');
+    // Show processing area
+    document.getElementById('uploadArea').classList.add('hidden');
+    document.getElementById('processingArea').classList.remove('hidden');
+
+    const formData = new FormData();
+    formData.append('file', file);
+
+    try {
+        // Upload file
+        const uploadResponse = await fetch('/upload', {
+            method: 'POST',
+            body: formData
+        });
+
+        const uploadResult = await uploadResponse.json();
+        
+        if (!uploadResponse.ok) {
+            throw new Error(uploadResult.error || 'Upload failed');
+        }
+
+        console.log('Upload result:', uploadResult);
+        currentPdfId = uploadResult.pdf_id;
+        console.log('Current PDF ID:', currentPdfId);
+        
+        // Backend'den gelen mesajı göster
+        if (uploadResult.message) {
+            showMessage(uploadResult.message, 'success');
+        }
+        
+        if (!currentPdfId) {
+            console.error('PDF ID is null or undefined');
+            throw new Error('PDF ID alınamadı');
+        }
+        
+        updateProgress(20, 'PDF yüklendi, metin çıkarılıyor...');
+
+        // Process PDF
+        console.log('Processing PDF with ID:', currentPdfId);
+        const processResponse = await fetch(`/process/${currentPdfId}`);
+        const processResult = await processResponse.json();
+        
+        console.log('Process result:', processResult);
+        
+        if (!processResponse.ok) {
+            console.error('Process failed:', processResult);
+            throw new Error(processResult.error || 'Processing failed');
+        }
+
+        updateProgress(100, 'İşlem tamamlandı!');
+        
+        // Backend'den gelen işleme mesajını göster
+        if (processResult.message) {
+            showMessage(processResult.message, 'success');
+        }
+        
+        console.log('Redirecting to quiz page:', `/quiz/${currentPdfId}`);
+        setTimeout(() => {
+            closeUploadModal();
+            window.location.href = `/quiz/${currentPdfId}`;
+        }, 1500);
+
+    } catch (error) {
+        console.error('Upload error:', error);
+        console.error('Error details:', {
+            message: error.message,
+            stack: error.stack,
+            currentPdfId: currentPdfId
+        });
+        showAlert('Hata: ' + error.message, 'error');
+        closeUploadModal();
+    }
+}
+
+function updateProgress(percent, text) {
+    document.getElementById('progressFill').style.width = percent + '%';
+    document.getElementById('progressText').textContent = text;
+}
+
+        function showAlert(message, type = 'info') {
+            console.log('Alert:', message, type);
+            showMessage(message, type);
+        }
+
+        // Mesaj gösterme fonksiyonu
+        function showMessage(message, type = 'info') {
+            // Mevcut mesajları temizle
+            const existingMessages = document.querySelectorAll('.message-toast');
+            existingMessages.forEach(msg => msg.remove());
+            
+            // Yeni mesaj oluştur
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message-toast message-${type}`;
+            messageDiv.innerHTML = `
+                <div class="message-content">
+                    <i class="fas ${type === 'success' ? 'fa-check-circle' : type === 'error' ? 'fa-exclamation-circle' : 'fa-info-circle'}"></i>
+                    <span>${message}</span>
+                </div>
+            `;
+            
+            // Sayfaya ekle
+            document.body.appendChild(messageDiv);
+            
+            // Animasyon için kısa gecikme
+            setTimeout(() => {
+                messageDiv.classList.add('show');
+            }, 100);
+            
+            // 3 saniye sonra kaldır
+            setTimeout(() => {
+                messageDiv.classList.remove('show');
+                setTimeout(() => {
+                    if (messageDiv.parentNode) {
+                        messageDiv.parentNode.removeChild(messageDiv);
+                    }
+                }, 300);
+            }, 3000);
+        }
+</script>
+{% endblock %}

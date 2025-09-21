@@ -1,0 +1,482 @@
+{% extends "base.html" %}
+
+{% block title %}Quiz - {{ pdf.name }}{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="card">
+        <div class="flex justify-between items-center mb-4">
+            <div>
+                <h1 class="text-2xl font-bold">{{ pdf.name }}</h1>
+                <p class="text-gray-600">Yüklenme Tarihi: {{ pdf.upload_date.strftime('%Y-%m-%d') }}</p>
+            </div>
+            <div class="flex gap-2">
+                <a href="/download/{{ pdf_id }}/summary" class="btn btn-secondary">
+                    <i class="fas fa-download"></i>
+                    Özet İndir
+                </a>
+                <a href="/download/{{ pdf_id }}/quiz" class="btn btn-secondary">
+                    <i class="fas fa-download"></i>
+                    Quiz İndir
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Summary Section -->
+    <div class="card">
+        <h2 class="text-xl font-bold mb-4">
+            <i class="fas fa-file-alt"></i>
+            PDF Özeti
+        </h2>
+        
+        {% if summary %}
+        <div class="grid grid-2">
+            <div>
+                <h3 class="font-semibold mb-2 text-green-600">Kısa Özet</h3>
+                <pre class="text-sm text-gray-600" style="white-space: pre-wrap; word-break: break-word;">{{ summary.short }}</pre>
+            </div>
+            <div>
+                <h3 class="font-semibold mb-2 text-blue-600">Orta Özet</h3>
+                <pre class="text-sm text-gray-600" style="white-space: pre-wrap; word-break: break-word;">{{ summary.medium }}</pre>
+            </div>
+        </div>
+        
+        <div class="mt-4">
+            <h3 class="font-semibold mb-2 text-purple-600">Uzun Özet</h3>
+            <pre class="text-sm text-gray-600" style="white-space: pre-wrap; word-break: break-word;">{{ summary.long }}</pre>
+        </div>
+        {% else %}
+        <div class="text-center text-gray-500">
+            <p>Özet henüz oluşturulmamış. Lütfen PDF'i işleyin.</p>
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Quiz Section -->
+    <div class="card">
+        <h2 class="text-xl font-bold mb-4">
+            <i class="fas fa-question-circle"></i>
+            Quiz Soruları
+        </h2>
+        
+        <div class="mb-4">
+            <div class="flex gap-4 flex-wrap">
+                <button onclick="showQuizLevel('easy')" class="btn btn-success" id="easyBtn">
+                    <i class="fas fa-star"></i>
+                    Kolay ({{ quiz.easy|length }} soru)
+                </button>
+                <button onclick="showQuizLevel('medium')" class="btn btn-secondary" id="mediumBtn">
+                    <i class="fas fa-star-half-alt"></i>
+                    Orta ({{ quiz.medium|length }} soru)
+                </button>
+                <button onclick="showQuizLevel('hard')" class="btn btn-danger" id="hardBtn">
+                    <i class="fas fa-star"></i>
+                    Zor ({{ quiz.hard|length }} soru)
+                </button>
+            </div>
+        </div>
+
+        <div id="quizContainer">
+            <div class="text-center text-gray-600">
+                <i class="fas fa-arrow-up" style="font-size: 2rem; margin-bottom: 1rem;"></i>
+                <p>Quiz seviyesi seçin</p>
+            </div>
+        </div>
+
+        <div id="quizResults" class="hidden">
+            <div class="card" style="background: #f8fafc;">
+                <h3 class="text-lg font-bold mb-4">Quiz Sonuçları</h3>
+                <div id="scoreDisplay" class="text-center mb-4">
+                    <div class="text-3xl font-bold text-green-600" id="scoreText">0/0</div>
+                    <div class="text-gray-600" id="percentageText">0%</div>
+                </div>
+                <div id="resultsList"></div>
+                <div class="text-center mt-4">
+                    <button onclick="resetQuiz()" class="btn">
+                        <i class="fas fa-redo"></i>
+                        Tekrar Dene
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.quiz-level {
+    display: none;
+}
+
+.quiz-level.active {
+    display: block;
+}
+
+.quiz-question {
+    margin-bottom: 2rem;
+}
+
+.quiz-option {
+    background: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin: 8px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.quiz-option:hover {
+    border-color: #667eea;
+    background: #f0f4ff;
+    transform: translateX(5px);
+}
+
+.quiz-option.selected {
+    border-color: #667eea;
+    background: #f0f4ff;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+}
+
+.quiz-option.correct {
+    border-color: #10b981;
+    background: #ecfdf5;
+}
+
+.quiz-option.incorrect {
+    border-color: #ef4444;
+    background: #fef2f2;
+}
+
+.option-letter {
+    font-weight: 600;
+    color: #667eea;
+    min-width: 24px;
+}
+
+.option-text {
+    flex: 1;
+}
+
+.result-item {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    border-left: 4px solid #e2e8f0;
+}
+
+.result-item.correct {
+    background: #ecfdf5;
+    border-left-color: #10b981;
+}
+
+.result-item.incorrect {
+    background: #fef2f2;
+    border-left-color: #ef4444;
+}
+
+/* Mesaj toast stilleri */
+.message-toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    max-width: 400px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.message-toast.show {
+    transform: translateX(0);
+}
+
+.message-success {
+    background: #10b981;
+    color: white;
+    border-left: 4px solid #059669;
+}
+
+.message-error {
+    background: #ef4444;
+    color: white;
+    border-left: 4px solid #dc2626;
+}
+
+.message-info {
+    background: #3b82f6;
+    color: white;
+    border-left: 4px solid #2563eb;
+}
+
+.message-content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.message-content i {
+    font-size: 16px;
+}
+</style>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+var currentLevel = null;
+var currentAnswers = {};
+
+// Safe JSON parsing with error handling
+var quizData = {};
+try {
+    var rawQuizData = '{{ quiz|tojson|safe }}';
+    console.log('Raw quiz data:', rawQuizData);
+    quizData = JSON.parse(rawQuizData);
+    console.log('Quiz data loaded successfully:', quizData);
+} catch (error) {
+    console.error('Error parsing quiz data:', error);
+    console.log('Raw data that failed to parse:', '{{ quiz|tojson|safe }}');
+    quizData = { easy: [], medium: [], hard: [] };
+}
+
+console.log('Easy questions:', quizData.easy?.length || 0);
+console.log('Medium questions:', quizData.medium?.length || 0);
+console.log('Hard questions:', quizData.hard?.length || 0);
+
+// Auto-show easy level on page load
+document.addEventListener('DOMContentLoaded', function() {
+    if (quizData.easy && quizData.easy.length > 0) {
+        showQuizLevel('easy');
+    }
+});
+
+function showQuizLevel(level) {
+    console.log('Showing quiz level:', level);
+    currentLevel = level;
+    currentAnswers = {};
+    console.log('Reset currentAnswers for new level');
+    
+    // Hide results and show quiz container
+    document.getElementById('quizResults').classList.add('hidden');
+    document.getElementById('quizContainer').classList.remove('hidden');
+    
+    // Update button states
+    document.querySelectorAll('[id$="Btn"]').forEach(btn => {
+        btn.classList.remove('btn-success', 'btn-danger', 'btn-primary');
+        btn.classList.add('btn-secondary');
+        btn.disabled = false;
+        btn.style.opacity = '1';
+    });
+    
+    document.getElementById(level + 'Btn').classList.remove('btn-secondary');
+    document.getElementById(level + 'Btn').classList.add(level === 'easy' ? 'btn-success' : level === 'medium' ? 'btn-secondary' : 'btn-danger');
+    
+    // Show quiz
+    const container = document.getElementById('quizContainer');
+    
+    const questions = quizData[level] || [];
+    if (questions.length === 0) {
+        container.innerHTML = '<div class="text-center text-gray-600"><p>Bu seviyede soru bulunmuyor.</p></div>';
+        return;
+    }
+    
+    let html = '<div class="quiz-level active">';
+    
+    questions.forEach((question, index) => {
+        html += `
+            <div class="quiz-question" data-question-id="${question.id}">
+                <h4 class="font-semibold mb-3">${index + 1}. ${question.question}</h4>
+                <div class="quiz-options">
+        `;
+        
+        question.options.forEach((option, optIndex) => {
+            html += `
+                <div class="quiz-option" onclick="selectAnswer('${question.id}', '${option}')" data-question="${question.id}" data-option="${option}">
+                    <span class="option-letter">${String.fromCharCode(65 + optIndex)})</span>
+                    <span class="option-text">${option}</span>
+                </div>
+            `;
+        });
+        
+        html += `
+                </div>
+            </div>
+        `;
+    });
+    
+    html += `
+        <div class="text-center mt-6">
+            <button onclick="submitQuiz()" class="btn">
+                <i class="fas fa-check"></i>
+                Quiz'i Bitir
+            </button>
+        </div>
+    </div>
+    `;
+    
+    container.innerHTML = html;
+    document.getElementById('quizResults').classList.add('hidden');
+    
+    console.log('Quiz HTML generated:', html);
+    console.log('Container innerHTML set, questions should be visible now');
+}
+
+function selectAnswer(questionId, answer) {
+    console.log(`Selecting answer for ${questionId}: ${answer}`);
+    currentAnswers[questionId] = answer;
+    
+    // Update visual state
+    const questionElement = document.querySelector(`[data-question-id="${questionId}"]`);
+    if (questionElement) {
+        questionElement.querySelectorAll('.quiz-option').forEach(option => {
+            option.classList.remove('selected');
+        });
+        
+        const selectedOption = document.querySelector(`[data-question="${questionId}"][data-option="${answer}"]`);
+        if (selectedOption) {
+            selectedOption.classList.add('selected');
+        }
+    }
+    
+    console.log('Current answers:', currentAnswers);
+}
+
+async function submitQuiz() {
+    console.log('Submitting quiz with answers:', currentAnswers);
+    console.log('Current level:', currentLevel);
+    
+    if (Object.keys(currentAnswers).length === 0) {
+        showAlert('Lütfen en az bir soru cevaplayın', 'error');
+        return;
+    }
+    
+    try {
+        // Submit current level
+        const response = await fetch(`/submit_quiz/{{ pdf_id }}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                answers: currentAnswers,
+                level: currentLevel
+            })
+        });
+        
+        const result = await response.json();
+        
+        if (!response.ok) {
+            throw new Error(result.error || 'Quiz submission failed');
+        }
+        
+        // Show results for current level
+        showQuizResults(result);
+        
+    } catch (error) {
+        console.error('Quiz submission error:', error);
+        showAlert('Hata: ' + error.message, 'error');
+    }
+}
+
+function showQuizResults(result) {
+    document.getElementById('quizContainer').classList.add('hidden');
+    document.getElementById('quizResults').classList.remove('hidden');
+    
+    // Update score display
+    document.getElementById('scoreText').textContent = `${result.score}/${result.total}`;
+    document.getElementById('percentageText').textContent = `${result.percentage}%`;
+    
+    // Show individual results
+    const resultsList = document.getElementById('resultsList');
+    let html = '';
+    
+    // Keep level buttons active after quiz submission
+    document.querySelectorAll('[id$="Btn"]').forEach(btn => {
+        btn.disabled = false;
+        btn.style.opacity = '1';
+    });
+    
+    // Highlight the current level button
+    document.getElementById(currentLevel + 'Btn').classList.remove('btn-secondary');
+    document.getElementById(currentLevel + 'Btn').classList.add(currentLevel === 'easy' ? 'btn-success' : currentLevel === 'medium' ? 'btn-secondary' : 'btn-danger');
+    
+    result.results.forEach((item, index) => {
+        const isCorrect = item.is_correct;
+        html += `
+            <div class="result-item ${isCorrect ? 'correct' : 'incorrect'}">
+                <div class="flex justify-between items-start mb-2">
+                    <h5 class="font-semibold">Soru ${index + 1}</h5>
+                    <span class="text-sm ${isCorrect ? 'text-green-600' : 'text-red-600'}">
+                        ${isCorrect ? '✓ Doğru' : '✗ Yanlış'}
+                    </span>
+                </div>
+                <p class="text-sm text-gray-600 mb-2">${item.question}</p>
+                <div class="text-sm">
+                    <p><strong>Senin Cevabın:</strong> <span class="${isCorrect ? 'text-green-600' : 'text-red-600'}">${item.user_answer || 'Boş'}</span></p>
+                    <p><strong>Doğru Cevap:</strong> <span class="text-green-600">${item.correct_answer}</span></p>
+                    ${item.explanation ? `<p class="mt-2 text-gray-500"><em>${item.explanation}</em></p>` : ''}
+                </div>
+            </div>
+        `;
+    });
+    
+    resultsList.innerHTML = html;
+}
+
+function resetQuiz() {
+    // Reset to current level
+    if (currentLevel) {
+        showQuizLevel(currentLevel);
+    } else {
+        // If no level selected, show easy by default
+        showQuizLevel('easy');
+    }
+}
+
+function showAlert(message, type = 'info') {
+    console.log('Alert:', message, type);
+    showMessage(message, type);
+}
+
+// Mesaj gösterme fonksiyonu
+function showMessage(message, type = 'info') {
+    // Mevcut mesajları temizle
+    const existingMessages = document.querySelectorAll('.message-toast');
+    existingMessages.forEach(msg => msg.remove());
+    
+    // Yeni mesaj oluştur
+    const messageDiv = document.createElement('div');
+    messageDiv.className = `message-toast message-${type}`;
+    messageDiv.innerHTML = `
+        <div class="message-content">
+            <i class="fas ${type === 'success' ? 'fa-check-circle' : type === 'error' ? 'fa-exclamation-circle' : 'fa-info-circle'}"></i>
+            <span>${message}</span>
+        </div>
+    `;
+    
+    // Sayfaya ekle
+    document.body.appendChild(messageDiv);
+    
+    // Animasyon için kısa gecikme
+    setTimeout(() => {
+        messageDiv.classList.add('show');
+    }, 100);
+    
+    // 3 saniye sonra kaldır
+    setTimeout(() => {
+        messageDiv.classList.remove('show');
+        setTimeout(() => {
+            if (messageDiv.parentNode) {
+                messageDiv.parentNode.removeChild(messageDiv);
+            }
+        }, 300);
+    }, 3000);
+}
+</script>
+{% endblock %}

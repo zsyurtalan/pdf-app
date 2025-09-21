@@ -1,0 +1,942 @@
+{
+  "pdfs": {
+    "a5dfa4dd-0559-4622-8735-2f0f85b2b828": {
+      "id": "a5dfa4dd-0559-4622-8735-2f0f85b2b828",
+      "name": "STA249-250_Lecture_02.pdf",
+      "path": "uploads\\a5dfa4dd-0559-4622-8735-2f0f85b2b828_STA249-250_Lecture_02.pdf",
+      "upload_date": "2025-09-21T18:06:43.296497",
+      "size": 1215309
+    },
+    "a7a2f517-12df-4d63-8638-925b9271ae0e": {
+      "id": "a7a2f517-12df-4d63-8638-925b9271ae0e",
+      "name": "STA249-250_Lecture_02.pdf",
+      "path": "uploads\\a7a2f517-12df-4d63-8638-925b9271ae0e_STA249-250_Lecture_02.pdf",
+      "upload_date": "2025-09-21T18:07:53.151518",
+      "size": 1215309
+    },
+    "3fa79007-00bd-41e8-98ec-6f01a9ed012c": {
+      "id": "3fa79007-00bd-41e8-98ec-6f01a9ed012c",
+      "name": "STA249-250_Lecture_02.pdf",
+      "path": "uploads\\3fa79007-00bd-41e8-98ec-6f01a9ed012c_STA249-250_Lecture_02.pdf",
+      "upload_date": "2025-09-21T18:09:33.770068",
+      "size": 1215309
+    },
+    "c2c7fb9c-59c6-491e-8bc6-5ee1bf1198c4": {
+      "id": "c2c7fb9c-59c6-491e-8bc6-5ee1bf1198c4",
+      "name": "STA249-250_Lecture_02.pdf",
+      "path": "uploads\\c2c7fb9c-59c6-491e-8bc6-5ee1bf1198c4_STA249-250_Lecture_02.pdf",
+      "upload_date": "2025-09-21T18:10:01.601095",
+      "size": 1215309
+    },
+    "6e02e9aa-61d1-4de8-bf41-4d2a1cd69697": {
+      "id": "6e02e9aa-61d1-4de8-bf41-4d2a1cd69697",
+      "name": "STA249-250_Lecture_02.pdf",
+      "path": "uploads\\6e02e9aa-61d1-4de8-bf41-4d2a1cd69697_STA249-250_Lecture_02.pdf",
+      "upload_date": "2025-09-21T18:11:40.238257",
+      "size": 1215309
+    },
+    "808120ea-e045-4ef5-92a3-d99dfd09df72": {
+      "id": "808120ea-e045-4ef5-92a3-d99dfd09df72",
+      "name": "STA249-250_Lecture_02.pdf",
+      "path": "uploads\\808120ea-e045-4ef5-92a3-d99dfd09df72_STA249-250_Lecture_02.pdf",
+      "upload_date": "2025-09-21T18:14:13.752299",
+      "size": 1215309
+    },
+    "baf28051-1899-46a5-b099-7f91a19f9e11": {
+      "id": "baf28051-1899-46a5-b099-7f91a19f9e11",
+      "name": "STA249-250_Lecture_02.pdf",
+      "path": "uploads\\baf28051-1899-46a5-b099-7f91a19f9e11_STA249-250_Lecture_02.pdf",
+      "upload_date": "2025-09-21T18:15:38.591588",
+      "size": 1215309
+    },
+    "ac3af740-6159-4951-adda-57c20343aeb9": {
+      "id": "ac3af740-6159-4951-adda-57c20343aeb9",
+      "name": "STA249-250_Lecture_02.pdf",
+      "path": "uploads\\ac3af740-6159-4951-adda-57c20343aeb9_STA249-250_Lecture_02.pdf",
+      "upload_date": "2025-09-21T18:17:20.257391",
+      "size": 1215309
+    },
+    "cd014717-2381-41af-9149-c3f1f2b5c99c": {
+      "id": "cd014717-2381-41af-9149-c3f1f2b5c99c",
+      "name": "STA249-250_Lecture_02.pdf",
+      "path": "uploads\\cd014717-2381-41af-9149-c3f1f2b5c99c_STA249-250_Lecture_02.pdf",
+      "upload_date": "2025-09-21T18:19:13.227052",
+      "size": 1215309
+    },
+    "9b775d57-4066-47ad-b8c2-bea59d01e2b9": {
+      "id": "9b775d57-4066-47ad-b8c2-bea59d01e2b9",
+      "name": "STA249-250_Lecture_02.pdf",
+      "path": "uploads\\9b775d57-4066-47ad-b8c2-bea59d01e2b9_STA249-250_Lecture_02.pdf",
+      "upload_date": "2025-09-21T18:24:42.507763",
+      "size": 1215309
+    }
+  },
+  "summaries": {
+    "a5dfa4dd-0559-4622-8735-2f0f85b2b828": {
+      "short": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location..",
+      "medium": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location.. •If the n observations are x1, x2, …, xn, the sample mean is \ncalculated as follows:\nҧ𝑥=𝑥1+𝑥2+𝑥3+⋯+𝑥𝑛\n𝑛\n•Or, in more compact notation,\nҧ𝑥=σ𝑖=1𝑛𝑥𝑖\n𝑛\n\nExample\nTwo samples of10northern red oak seedlings areplanted ina\ngreenhouse, one containing seedlings treated with nitrogen and\none containing nonitrogen .The stem weights ingrams were\nrecorded after theend of140days .. Retrieved February 21, 2023, from https://www.scribbr.com/statistics/central -tendency/\nComparing The Sample Mean and The \nSample Median\nThe mean and median ofaroughly symmetric distribution are close\ntogether .Ifthedistribution isexactly symmetric, themean and median\nareexactly thesame .Inaskewed distribution, themean isusually farther\noutinthelong tailthan isthemedian ..",
+      "long": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location.. •If the n observations are x1, x2, …, xn, the sample mean is \ncalculated as follows:\nҧ𝑥=𝑥1+𝑥2+𝑥3+⋯+𝑥𝑛\n𝑛\n•Or, in more compact notation,\nҧ𝑥=σ𝑖=1𝑛𝑥𝑖\n𝑛\n\nExample\nTwo samples of10northern red oak seedlings areplanted ina\ngreenhouse, one containing seedlings treated with nitrogen and\none containing nonitrogen .The stem weights ingrams were\nrecorded after theend of140days .. Retrieved February 21, 2023, from https://www.scribbr.com/statistics/central -tendency/\nComparing The Sample Mean and The \nSample Median\nThe mean and median ofaroughly symmetric distribution are close\ntogether .Ifthedistribution isexactly symmetric, themean and median\nareexactly thesame .Inaskewed distribution, themean isusually farther\noutinthelong tailthan isthemedian .. Example: Using the1.5 x IQR rule\nFor the New York travel time data, IQR =27.5 and\n1.5𝑥𝐼𝑄𝑅=1.5𝑥27.5=41.25\nAny values not falling between\n𝑄1−(1.5𝑥𝐼𝑄𝑅)=15.0−41.25=−26.25\n𝑄3+(1.5𝑥𝐼𝑄𝑅)=42.5+41.25=83.75\nLook again attheboxplot inExample :theonly suspected\noutlier isthelongest travel time, 85minutes .the1.5IQR\nrule suggests that thethree next -longest travel times (60\nand 65minutes) arejust part ofthelong right tailofthis\nskewed distribution .."
+    },
+    "a7a2f517-12df-4d63-8638-925b9271ae0e": {
+      "short": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location..",
+      "medium": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location.. •If the n observations are x1, x2, …, xn, the sample mean is \ncalculated as follows:\nҧ𝑥=𝑥1+𝑥2+𝑥3+⋯+𝑥𝑛\n𝑛\n•Or, in more compact notation,\nҧ𝑥=σ𝑖=1𝑛𝑥𝑖\n𝑛\n\nExample\nTwo samples of10northern red oak seedlings areplanted ina\ngreenhouse, one containing seedlings treated with nitrogen and\none containing nonitrogen .The stem weights ingrams were\nrecorded after theend of140days .. Retrieved February 21, 2023, from https://www.scribbr.com/statistics/central -tendency/\nComparing The Sample Mean and The \nSample Median\nThe mean and median ofaroughly symmetric distribution are close\ntogether .Ifthedistribution isexactly symmetric, themean and median\nareexactly thesame .Inaskewed distribution, themean isusually farther\noutinthelong tailthan isthemedian ..",
+      "long": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location.. •If the n observations are x1, x2, …, xn, the sample mean is \ncalculated as follows:\nҧ𝑥=𝑥1+𝑥2+𝑥3+⋯+𝑥𝑛\n𝑛\n•Or, in more compact notation,\nҧ𝑥=σ𝑖=1𝑛𝑥𝑖\n𝑛\n\nExample\nTwo samples of10northern red oak seedlings areplanted ina\ngreenhouse, one containing seedlings treated with nitrogen and\none containing nonitrogen .The stem weights ingrams were\nrecorded after theend of140days .. Retrieved February 21, 2023, from https://www.scribbr.com/statistics/central -tendency/\nComparing The Sample Mean and The \nSample Median\nThe mean and median ofaroughly symmetric distribution are close\ntogether .Ifthedistribution isexactly symmetric, themean and median\nareexactly thesame .Inaskewed distribution, themean isusually farther\noutinthelong tailthan isthemedian .. Example: Using the1.5 x IQR rule\nFor the New York travel time data, IQR =27.5 and\n1.5𝑥𝐼𝑄𝑅=1.5𝑥27.5=41.25\nAny values not falling between\n𝑄1−(1.5𝑥𝐼𝑄𝑅)=15.0−41.25=−26.25\n𝑄3+(1.5𝑥𝐼𝑄𝑅)=42.5+41.25=83.75\nLook again attheboxplot inExample :theonly suspected\noutlier isthelongest travel time, 85minutes .the1.5IQR\nrule suggests that thethree next -longest travel times (60\nand 65minutes) arejust part ofthelong right tailofthis\nskewed distribution .."
+    },
+    "3fa79007-00bd-41e8-98ec-6f01a9ed012c": {
+      "short": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location..",
+      "medium": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location.. •If the n observations are x1, x2, …, xn, the sample mean is \ncalculated as follows:\nҧ𝑥=𝑥1+𝑥2+𝑥3+⋯+𝑥𝑛\n𝑛\n•Or, in more compact notation,\nҧ𝑥=σ𝑖=1𝑛𝑥𝑖\n𝑛\n\nExample\nTwo samples of10northern red oak seedlings areplanted ina\ngreenhouse, one containing seedlings treated with nitrogen and\none containing nonitrogen .The stem weights ingrams were\nrecorded after theend of140days .. Retrieved February 21, 2023, from https://www.scribbr.com/statistics/central -tendency/\nComparing The Sample Mean and The \nSample Median\nThe mean and median ofaroughly symmetric distribution are close\ntogether .Ifthedistribution isexactly symmetric, themean and median\nareexactly thesame .Inaskewed distribution, themean isusually farther\noutinthelong tailthan isthemedian ..",
+      "long": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location.. •If the n observations are x1, x2, …, xn, the sample mean is \ncalculated as follows:\nҧ𝑥=𝑥1+𝑥2+𝑥3+⋯+𝑥𝑛\n𝑛\n•Or, in more compact notation,\nҧ𝑥=σ𝑖=1𝑛𝑥𝑖\n𝑛\n\nExample\nTwo samples of10northern red oak seedlings areplanted ina\ngreenhouse, one containing seedlings treated with nitrogen and\none containing nonitrogen .The stem weights ingrams were\nrecorded after theend of140days .. Retrieved February 21, 2023, from https://www.scribbr.com/statistics/central -tendency/\nComparing The Sample Mean and The \nSample Median\nThe mean and median ofaroughly symmetric distribution are close\ntogether .Ifthedistribution isexactly symmetric, themean and median\nareexactly thesame .Inaskewed distribution, themean isusually farther\noutinthelong tailthan isthemedian .. Example: Using the1.5 x IQR rule\nFor the New York travel time data, IQR =27.5 and\n1.5𝑥𝐼𝑄𝑅=1.5𝑥27.5=41.25\nAny values not falling between\n𝑄1−(1.5𝑥𝐼𝑄𝑅)=15.0−41.25=−26.25\n𝑄3+(1.5𝑥𝐼𝑄𝑅)=42.5+41.25=83.75\nLook again attheboxplot inExample :theonly suspected\noutlier isthelongest travel time, 85minutes .the1.5IQR\nrule suggests that thethree next -longest travel times (60\nand 65minutes) arejust part ofthelong right tailofthis\nskewed distribution .."
+    },
+    "c2c7fb9c-59c6-491e-8bc6-5ee1bf1198c4": {
+      "short": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location..",
+      "medium": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location.. •If the n observations are x1, x2, …, xn, the sample mean is \ncalculated as follows:\nҧ𝑥=𝑥1+𝑥2+𝑥3+⋯+𝑥𝑛\n𝑛\n•Or, in more compact notation,\nҧ𝑥=σ𝑖=1𝑛𝑥𝑖\n𝑛\n\nExample\nTwo samples of10northern red oak seedlings areplanted ina\ngreenhouse, one containing seedlings treated with nitrogen and\none containing nonitrogen .The stem weights ingrams were\nrecorded after theend of140days .. Retrieved February 21, 2023, from https://www.scribbr.com/statistics/central -tendency/\nComparing The Sample Mean and The \nSample Median\nThe mean and median ofaroughly symmetric distribution are close\ntogether .Ifthedistribution isexactly symmetric, themean and median\nareexactly thesame .Inaskewed distribution, themean isusually farther\noutinthelong tailthan isthemedian ..",
+      "long": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location.. •If the n observations are x1, x2, …, xn, the sample mean is \ncalculated as follows:\nҧ𝑥=𝑥1+𝑥2+𝑥3+⋯+𝑥𝑛\n𝑛\n•Or, in more compact notation,\nҧ𝑥=σ𝑖=1𝑛𝑥𝑖\n𝑛\n\nExample\nTwo samples of10northern red oak seedlings areplanted ina\ngreenhouse, one containing seedlings treated with nitrogen and\none containing nonitrogen .The stem weights ingrams were\nrecorded after theend of140days .. Retrieved February 21, 2023, from https://www.scribbr.com/statistics/central -tendency/\nComparing The Sample Mean and The \nSample Median\nThe mean and median ofaroughly symmetric distribution are close\ntogether .Ifthedistribution isexactly symmetric, themean and median\nareexactly thesame .Inaskewed distribution, themean isusually farther\noutinthelong tailthan isthemedian .. Example: Using the1.5 x IQR rule\nFor the New York travel time data, IQR =27.5 and\n1.5𝑥𝐼𝑄𝑅=1.5𝑥27.5=41.25\nAny values not falling between\n𝑄1−(1.5𝑥𝐼𝑄𝑅)=15.0−41.25=−26.25\n𝑄3+(1.5𝑥𝐼𝑄𝑅)=42.5+41.25=83.75\nLook again attheboxplot inExample :theonly suspected\noutlier isthelongest travel time, 85minutes .the1.5IQR\nrule suggests that thethree next -longest travel times (60\nand 65minutes) arejust part ofthelong right tailofthis\nskewed distribution .."
+    },
+    "6e02e9aa-61d1-4de8-bf41-4d2a1cd69697": {
+      "short": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location..",
+      "medium": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location.. •If the n observations are x1, x2, …, xn, the sample mean is \ncalculated as follows:\nҧ𝑥=𝑥1+𝑥2+𝑥3+⋯+𝑥𝑛\n𝑛\n•Or, in more compact notation,\nҧ𝑥=σ𝑖=1𝑛𝑥𝑖\n𝑛\n\nExample\nTwo samples of10northern red oak seedlings areplanted ina\ngreenhouse, one containing seedlings treated with nitrogen and\none containing nonitrogen .The stem weights ingrams were\nrecorded after theend of140days .. Retrieved February 21, 2023, from https://www.scribbr.com/statistics/central -tendency/\nComparing The Sample Mean and The \nSample Median\nThe mean and median ofaroughly symmetric distribution are close\ntogether .Ifthedistribution isexactly symmetric, themean and median\nareexactly thesame .Inaskewed distribution, themean isusually farther\noutinthelong tailthan isthemedian ..",
+      "long": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location.. •If the n observations are x1, x2, …, xn, the sample mean is \ncalculated as follows:\nҧ𝑥=𝑥1+𝑥2+𝑥3+⋯+𝑥𝑛\n𝑛\n•Or, in more compact notation,\nҧ𝑥=σ𝑖=1𝑛𝑥𝑖\n𝑛\n\nExample\nTwo samples of10northern red oak seedlings areplanted ina\ngreenhouse, one containing seedlings treated with nitrogen and\none containing nonitrogen .The stem weights ingrams were\nrecorded after theend of140days .. Retrieved February 21, 2023, from https://www.scribbr.com/statistics/central -tendency/\nComparing The Sample Mean and The \nSample Median\nThe mean and median ofaroughly symmetric distribution are close\ntogether .Ifthedistribution isexactly symmetric, themean and median\nareexactly thesame .Inaskewed distribution, themean isusually farther\noutinthelong tailthan isthemedian .. Example: Using the1.5 x IQR rule\nFor the New York travel time data, IQR =27.5 and\n1.5𝑥𝐼𝑄𝑅=1.5𝑥27.5=41.25\nAny values not falling between\n𝑄1−(1.5𝑥𝐼𝑄𝑅)=15.0−41.25=−26.25\n𝑄3+(1.5𝑥𝐼𝑄𝑅)=42.5+41.25=83.75\nLook again attheboxplot inExample :theonly suspected\noutlier isthelongest travel time, 85minutes .the1.5IQR\nrule suggests that thethree next -longest travel times (60\nand 65minutes) arejust part ofthelong right tailofthis\nskewed distribution .."
+    },
+    "808120ea-e045-4ef5-92a3-d99dfd09df72": {
+      "short": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location..",
+      "medium": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location.. •If the n observations are x1, x2, …, xn, the sample mean is \ncalculated as follows:\nҧ𝑥=𝑥1+𝑥2+𝑥3+⋯+𝑥𝑛\n𝑛\n•Or, in more compact notation,\nҧ𝑥=σ𝑖=1𝑛𝑥𝑖\n𝑛\n\nExample\nTwo samples of10northern red oak seedlings areplanted ina\ngreenhouse, one containing seedlings treated with nitrogen and\none containing nonitrogen .The stem weights ingrams were\nrecorded after theend of140days .. Retrieved February 21, 2023, from https://www.scribbr.com/statistics/central -tendency/\nComparing The Sample Mean and The \nSample Median\nThe mean and median ofaroughly symmetric distribution are close\ntogether .Ifthedistribution isexactly symmetric, themean and median\nareexactly thesame .Inaskewed distribution, themean isusually farther\noutinthelong tailthan isthemedian ..",
+      "long": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location.. •If the n observations are x1, x2, …, xn, the sample mean is \ncalculated as follows:\nҧ𝑥=𝑥1+𝑥2+𝑥3+⋯+𝑥𝑛\n𝑛\n•Or, in more compact notation,\nҧ𝑥=σ𝑖=1𝑛𝑥𝑖\n𝑛\n\nExample\nTwo samples of10northern red oak seedlings areplanted ina\ngreenhouse, one containing seedlings treated with nitrogen and\none containing nonitrogen .The stem weights ingrams were\nrecorded after theend of140days .. Retrieved February 21, 2023, from https://www.scribbr.com/statistics/central -tendency/\nComparing The Sample Mean and The \nSample Median\nThe mean and median ofaroughly symmetric distribution are close\ntogether .Ifthedistribution isexactly symmetric, themean and median\nareexactly thesame .Inaskewed distribution, themean isusually farther\noutinthelong tailthan isthemedian .. Example: Using the1.5 x IQR rule\nFor the New York travel time data, IQR =27.5 and\n1.5𝑥𝐼𝑄𝑅=1.5𝑥27.5=41.25\nAny values not falling between\n𝑄1−(1.5𝑥𝐼𝑄𝑅)=15.0−41.25=−26.25\n𝑄3+(1.5𝑥𝐼𝑄𝑅)=42.5+41.25=83.75\nLook again attheboxplot inExample :theonly suspected\noutlier isthelongest travel time, 85minutes .the1.5IQR\nrule suggests that thethree next -longest travel times (60\nand 65minutes) arejust part ofthelong right tailofthis\nskewed distribution .."
+    },
+    "baf28051-1899-46a5-b099-7f91a19f9e11": {
+      "short": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location..",
+      "medium": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location.. •If the n observations are x1, x2, …, xn, the sample mean is \ncalculated as follows:\nҧ𝑥=𝑥1+𝑥2+𝑥3+⋯+𝑥𝑛\n𝑛\n•Or, in more compact notation,\nҧ𝑥=σ𝑖=1𝑛𝑥𝑖\n𝑛\n\nExample\nTwo samples of10northern red oak seedlings areplanted ina\ngreenhouse, one containing seedlings treated with nitrogen and\none containing nonitrogen .The stem weights ingrams were\nrecorded after theend of140days .. Retrieved February 21, 2023, from https://www.scribbr.com/statistics/central -tendency/\nComparing The Sample Mean and The \nSample Median\nThe mean and median ofaroughly symmetric distribution are close\ntogether .Ifthedistribution isexactly symmetric, themean and median\nareexactly thesame .Inaskewed distribution, themean isusually farther\noutinthelong tailthan isthemedian ..",
+      "long": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location.. •If the n observations are x1, x2, …, xn, the sample mean is \ncalculated as follows:\nҧ𝑥=𝑥1+𝑥2+𝑥3+⋯+𝑥𝑛\n𝑛\n•Or, in more compact notation,\nҧ𝑥=σ𝑖=1𝑛𝑥𝑖\n𝑛\n\nExample\nTwo samples of10northern red oak seedlings areplanted ina\ngreenhouse, one containing seedlings treated with nitrogen and\none containing nonitrogen .The stem weights ingrams were\nrecorded after theend of140days .. Retrieved February 21, 2023, from https://www.scribbr.com/statistics/central -tendency/\nComparing The Sample Mean and The \nSample Median\nThe mean and median ofaroughly symmetric distribution are close\ntogether .Ifthedistribution isexactly symmetric, themean and median\nareexactly thesame .Inaskewed distribution, themean isusually farther\noutinthelong tailthan isthemedian .. Example: Using the1.5 x IQR rule\nFor the New York travel time data, IQR =27.5 and\n1.5𝑥𝐼𝑄𝑅=1.5𝑥27.5=41.25\nAny values not falling between\n𝑄1−(1.5𝑥𝐼𝑄𝑅)=15.0−41.25=−26.25\n𝑄3+(1.5𝑥𝐼𝑄𝑅)=42.5+41.25=83.75\nLook again attheboxplot inExample :theonly suspected\noutlier isthelongest travel time, 85minutes .the1.5IQR\nrule suggests that thethree next -longest travel times (60\nand 65minutes) arejust part ofthelong right tailofthis\nskewed distribution .."
+    },
+    "ac3af740-6159-4951-adda-57c20343aeb9": {
+      "short": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location..",
+      "medium": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location.. •If the n observations are x1, x2, …, xn, the sample mean is \ncalculated as follows:\nҧ𝑥=𝑥1+𝑥2+𝑥3+⋯+𝑥𝑛\n𝑛\n•Or, in more compact notation,\nҧ𝑥=σ𝑖=1𝑛𝑥𝑖\n𝑛\n\nExample\nTwo samples of10northern red oak seedlings areplanted ina\ngreenhouse, one containing seedlings treated with nitrogen and\none containing nonitrogen .The stem weights ingrams were\nrecorded after theend of140days .. Retrieved February 21, 2023, from https://www.scribbr.com/statistics/central -tendency/\nComparing The Sample Mean and The \nSample Median\nThe mean and median ofaroughly symmetric distribution are close\ntogether .Ifthedistribution isexactly symmetric, themean and median\nareexactly thesame .Inaskewed distribution, themean isusually farther\noutinthelong tailthan isthemedian ..",
+      "long": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location.. •If the n observations are x1, x2, …, xn, the sample mean is \ncalculated as follows:\nҧ𝑥=𝑥1+𝑥2+𝑥3+⋯+𝑥𝑛\n𝑛\n•Or, in more compact notation,\nҧ𝑥=σ𝑖=1𝑛𝑥𝑖\n𝑛\n\nExample\nTwo samples of10northern red oak seedlings areplanted ina\ngreenhouse, one containing seedlings treated with nitrogen and\none containing nonitrogen .The stem weights ingrams were\nrecorded after theend of140days .. Retrieved February 21, 2023, from https://www.scribbr.com/statistics/central -tendency/\nComparing The Sample Mean and The \nSample Median\nThe mean and median ofaroughly symmetric distribution are close\ntogether .Ifthedistribution isexactly symmetric, themean and median\nareexactly thesame .Inaskewed distribution, themean isusually farther\noutinthelong tailthan isthemedian .. Example: Using the1.5 x IQR rule\nFor the New York travel time data, IQR =27.5 and\n1.5𝑥𝐼𝑄𝑅=1.5𝑥27.5=41.25\nAny values not falling between\n𝑄1−(1.5𝑥𝐼𝑄𝑅)=15.0−41.25=−26.25\n𝑄3+(1.5𝑥𝐼𝑄𝑅)=42.5+41.25=83.75\nLook again attheboxplot inExample :theonly suspected\noutlier isthelongest travel time, 85minutes .the1.5IQR\nrule suggests that thethree next -longest travel times (60\nand 65minutes) arejust part ofthelong right tailofthis\nskewed distribution .."
+    },
+    "cd014717-2381-41af-9149-c3f1f2b5c99c": {
+      "short": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location..",
+      "medium": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location.. •If the n observations are x1, x2, …, xn, the sample mean is \ncalculated as follows:\nҧ𝑥=𝑥1+𝑥2+𝑥3+⋯+𝑥𝑛\n𝑛\n•Or, in more compact notation,\nҧ𝑥=σ𝑖=1𝑛𝑥𝑖\n𝑛\n\nExample\nTwo samples of10northern red oak seedlings areplanted ina\ngreenhouse, one containing seedlings treated with nitrogen and\none containing nonitrogen .The stem weights ingrams were\nrecorded after theend of140days .. Retrieved February 21, 2023, from https://www.scribbr.com/statistics/central -tendency/\nComparing The Sample Mean and The \nSample Median\nThe mean and median ofaroughly symmetric distribution are close\ntogether .Ifthedistribution isexactly symmetric, themean and median\nareexactly thesame .Inaskewed distribution, themean isusually farther\noutinthelong tailthan isthemedian ..",
+      "long": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location.. •If the n observations are x1, x2, …, xn, the sample mean is \ncalculated as follows:\nҧ𝑥=𝑥1+𝑥2+𝑥3+⋯+𝑥𝑛\n𝑛\n•Or, in more compact notation,\nҧ𝑥=σ𝑖=1𝑛𝑥𝑖\n𝑛\n\nExample\nTwo samples of10northern red oak seedlings areplanted ina\ngreenhouse, one containing seedlings treated with nitrogen and\none containing nonitrogen .The stem weights ingrams were\nrecorded after theend of140days .. Retrieved February 21, 2023, from https://www.scribbr.com/statistics/central -tendency/\nComparing The Sample Mean and The \nSample Median\nThe mean and median ofaroughly symmetric distribution are close\ntogether .Ifthedistribution isexactly symmetric, themean and median\nareexactly thesame .Inaskewed distribution, themean isusually farther\noutinthelong tailthan isthemedian .. Example: Using the1.5 x IQR rule\nFor the New York travel time data, IQR =27.5 and\n1.5𝑥𝐼𝑄𝑅=1.5𝑥27.5=41.25\nAny values not falling between\n𝑄1−(1.5𝑥𝐼𝑄𝑅)=15.0−41.25=−26.25\n𝑄3+(1.5𝑥𝐼𝑄𝑅)=42.5+41.25=83.75\nLook again attheboxplot inExample :theonly suspected\noutlier isthelongest travel time, 85minutes .the1.5IQR\nrule suggests that thethree next -longest travel times (60\nand 65minutes) arejust part ofthelong right tailofthis\nskewed distribution .."
+    },
+    "9b775d57-4066-47ad-b8c2-bea59d01e2b9": {
+      "short": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location..",
+      "medium": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location.. •If the n observations are x1, x2, …, xn, the sample mean is \ncalculated as follows:\nҧ𝑥=𝑥1+𝑥2+𝑥3+⋯+𝑥𝑛\n𝑛\n•Or, in more compact notation,\nҧ𝑥=σ𝑖=1𝑛𝑥𝑖\n𝑛\n\nExample\nTwo samples of10northern red oak seedlings areplanted ina\ngreenhouse, one containing seedlings treated with nitrogen and\none containing nonitrogen .The stem weights ingrams were\nrecorded after theend of140days .. Retrieved February 21, 2023, from https://www.scribbr.com/statistics/central -tendency/\nComparing The Sample Mean and The \nSample Median\nThe mean and median ofaroughly symmetric distribution are close\ntogether .Ifthedistribution isexactly symmetric, themean and median\nareexactly thesame .Inaskewed distribution, themean isusually farther\noutinthelong tailthan isthemedian ..",
+      "long": "Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.. Examples (mod )\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nExample (mod )\nAnother problem with the \nmode is that it will not \nprovide us with a very good \nmeasure of central tendency \nwhen the most common mark \nis far away from the rest of \nthe data in the data set, as \ndepicted in the diagra m.\nSource: https://statistics.laerd.com/statistical -guides/measures -central -tendency -mean -mode -median.php\nMeasures of Location: The Sample Median\nThe sample median is another measure of location.. •If the n observations are x1, x2, …, xn, the sample mean is \ncalculated as follows:\nҧ𝑥=𝑥1+𝑥2+𝑥3+⋯+𝑥𝑛\n𝑛\n•Or, in more compact notation,\nҧ𝑥=σ𝑖=1𝑛𝑥𝑖\n𝑛\n\nExample\nTwo samples of10northern red oak seedlings areplanted ina\ngreenhouse, one containing seedlings treated with nitrogen and\none containing nonitrogen .The stem weights ingrams were\nrecorded after theend of140days .. Retrieved February 21, 2023, from https://www.scribbr.com/statistics/central -tendency/\nComparing The Sample Mean and The \nSample Median\nThe mean and median ofaroughly symmetric distribution are close\ntogether .Ifthedistribution isexactly symmetric, themean and median\nareexactly thesame .Inaskewed distribution, themean isusually farther\noutinthelong tailthan isthemedian .. Example: Using the1.5 x IQR rule\nFor the New York travel time data, IQR =27.5 and\n1.5𝑥𝐼𝑄𝑅=1.5𝑥27.5=41.25\nAny values not falling between\n𝑄1−(1.5𝑥𝐼𝑄𝑅)=15.0−41.25=−26.25\n𝑄3+(1.5𝑥𝐼𝑄𝑅)=42.5+41.25=83.75\nLook again attheboxplot inExample :theonly suspected\noutlier isthelongest travel time, 85minutes .the1.5IQR\nrule suggests that thethree next -longest travel times (60\nand 65minutes) arejust part ofthelong right tailofthis\nskewed distribution .."
+    }
+  },
+  "quizzes": {
+    "a5dfa4dd-0559-4622-8735-2f0f85b2b828": {
+      "easy": [
+        {
+          "id": "easy_0",
+          "question": "STA249 & STA 250 Probability and Statistics Lecture 2 : Measures of Tendency and DispersionSTA249 & STA 250 Probability and Statistics Lecture 2 : _____ of Tendency and Dispersion Asst .",
+          "options": [
+            "Measures",
+            "median",
+            "mean",
+            "mode"
+          ],
+          "correct": "Measures",
+          "explanation": "Doğru cevap: \"Measures\""
+        },
+        {
+          "id": "easy_1",
+          "question": "Prof. Abdullah YALÇINKAYA Ankara University , Faculty of Science , _____ of Statistics ayalcinkaya @ ankara.edu.tr 2023 STA249 & STA250 Probability and Statistics Reference Book sSTA249 & STA250 Probability and Statistics Reference Book s This lecture notes are prepared according to the contents of « PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS » byWalpole , Myers , Myers andYe « APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS » byMontgomery andRunger « Statistics for Biomedical Engineers and Scientists How to Visualize and Analyze Data » by Andrew P. King and Robert J. Eckersley Central Tendency refers to the Middle of the Distribution Central Tendency Measures Mode Median Mean 1.MODE When it 's unique , the mode is the value that appears the most often in a data set and it can be used as a measure of central tendency But sometimes , there is no mode or there is more than one mode .",
+          "options": [
+            "Department",
+            "median",
+            "mean",
+            "mode"
+          ],
+          "correct": "Department",
+          "explanation": "Doğru cevap: \"Department\""
+        }
+      ],
+      "medium": [
+        {
+          "id": "medium_0",
+          "question": "Bu cümlede bahsedilen ana konu nedir?\n\n\"STA249 & STA 250 \nProbability and Statistics \nLecture 2: Measures of Tendency\nand DispersionSTA249 & STA 250 \nProbability and Statistics \nLecture 2: Measures of Tendency\nand Dispersion\nAsst .\"",
+          "options": [
+            "Teknoloji",
+            "Eğitim",
+            "Sağlık",
+            "Ekonomi"
+          ],
+          "correct": "Eğitim",
+          "explanation": "Cümle analizi: \"STA249 & STA 250 \nProbability and Statistics \nLect...\""
+        },
+        {
+          "id": "medium_1",
+          "question": "Bu cümlede bahsedilen ana konu nedir?\n\n\"Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.\"",
+          "options": [
+            "Teknoloji",
+            "Eğitim",
+            "Sağlık",
+            "Ekonomi"
+          ],
+          "correct": "Eğitim",
+          "explanation": "Cümle analizi: \"Prof. Abdullah YALÇINKAYA\nAnkara University , Facu...\""
+        }
+      ],
+      "hard": [
+        {
+          "id": "hard_0",
+          "question": "Bu metinde en sık geçen kelime hangisidir?",
+          "options": [
+            "median",
+            "mean",
+            "mode",
+            "data"
+          ],
+          "correct": "median",
+          "explanation": "En sık geçen kelime: \"median\" (50 kez)"
+        }
+      ]
+    },
+    "a7a2f517-12df-4d63-8638-925b9271ae0e": {
+      "easy": [
+        {
+          "id": "easy_0",
+          "question": "STA249 & STA 250 Probability and Statistics Lecture 2 : Measures of Tendency and DispersionSTA249 & STA 250 Probability and _____ Lecture 2 : Measures of Tendency and Dispersion Asst .",
+          "options": [
+            "Statistics",
+            "median",
+            "mean",
+            "mode"
+          ],
+          "correct": "Statistics",
+          "explanation": "Doğru cevap: \"Statistics\""
+        },
+        {
+          "id": "easy_1",
+          "question": "Prof. Abdullah YALÇINKAYA Ankara University , Faculty of Science , Department of Statistics ayalcinkaya @ ankara.edu.tr 2023 STA249 & STA250 Probability and Statistics Reference Book sSTA249 & STA250 Probability and Statistics Reference Book s This lecture notes are prepared according to the contents of « PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS » byWalpole , Myers , Myers andYe « APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS » byMontgomery andRunger « Statistics for Biomedical Engineers and Scientists How to Visualize and Analyze Data » by Andrew P. King and Robert J. Eckersley Central Tendency refers to the Middle of the Distribution Central Tendency Measures Mode Median Mean 1.MODE When it 's unique , the mode is the value that appears the most often in a data set and it can be used as a measure of central tendency But _____ , there is no mode or there is more than one mode .",
+          "options": [
+            "sometimes",
+            "median",
+            "mean",
+            "mode"
+          ],
+          "correct": "sometimes",
+          "explanation": "Doğru cevap: \"sometimes\""
+        }
+      ],
+      "medium": [
+        {
+          "id": "medium_0",
+          "question": "Bu cümlede bahsedilen ana konu nedir?\n\n\"STA249 & STA 250 \nProbability and Statistics \nLecture 2: Measures of Tendency\nand DispersionSTA249 & STA 250 \nProbability and Statistics \nLecture 2: Measures of Tendency\nand Dispersion\nAsst .\"",
+          "options": [
+            "Teknoloji",
+            "Eğitim",
+            "Sağlık",
+            "Ekonomi"
+          ],
+          "correct": "Eğitim",
+          "explanation": "Cümle analizi: \"STA249 & STA 250 \nProbability and Statistics \nLect...\""
+        },
+        {
+          "id": "medium_1",
+          "question": "Bu cümlede bahsedilen ana konu nedir?\n\n\"Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.\"",
+          "options": [
+            "Teknoloji",
+            "Eğitim",
+            "Sağlık",
+            "Ekonomi"
+          ],
+          "correct": "Eğitim",
+          "explanation": "Cümle analizi: \"Prof. Abdullah YALÇINKAYA\nAnkara University , Facu...\""
+        }
+      ],
+      "hard": [
+        {
+          "id": "hard_0",
+          "question": "Bu metinde en sık geçen kelime hangisidir?",
+          "options": [
+            "median",
+            "mean",
+            "mode",
+            "data"
+          ],
+          "correct": "median",
+          "explanation": "En sık geçen kelime: \"median\" (50 kez)"
+        }
+      ]
+    },
+    "3fa79007-00bd-41e8-98ec-6f01a9ed012c": {
+      "easy": [
+        {
+          "id": "easy_0",
+          "question": "STA249 & STA 250 Probability and Statistics Lecture 2 : Measures of Tendency and DispersionSTA249 & STA 250 Probability and Statistics Lecture 2 : Measures of Tendency and _____ Asst .",
+          "options": [
+            "Dispersion",
+            "median",
+            "mean",
+            "mode"
+          ],
+          "correct": "Dispersion",
+          "explanation": "Doğru cevap: \"Dispersion\""
+        },
+        {
+          "id": "easy_1",
+          "question": "Prof. Abdullah YALÇINKAYA Ankara University , Faculty of Science , Department _____ Statistics ayalcinkaya @ ankara.edu.tr 2023 STA249 & STA250 Probability and Statistics Reference Book sSTA249 & STA250 Probability and Statistics Reference Book s This lecture notes are prepared according to the contents of « PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS » byWalpole , Myers , Myers andYe « APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS » byMontgomery andRunger « Statistics for Biomedical Engineers and Scientists How to Visualize and Analyze Data » by Andrew P. King and Robert J. Eckersley Central Tendency refers to the Middle of the Distribution Central Tendency Measures Mode Median Mean 1.MODE When it 's unique , the mode is the value that appears the most often in a data set and it can be used as a measure of central tendency But sometimes , there is no mode or there is more than one mode .",
+          "options": [
+            "of",
+            "median",
+            "mean",
+            "mode"
+          ],
+          "correct": "of",
+          "explanation": "Doğru cevap: \"of\""
+        }
+      ],
+      "medium": [
+        {
+          "id": "medium_0",
+          "question": "Bu cümlede bahsedilen ana konu nedir?\n\n\"STA249 & STA 250 \nProbability and Statistics \nLecture 2: Measures of Tendency\nand DispersionSTA249 & STA 250 \nProbability and Statistics \nLecture 2: Measures of Tendency\nand Dispersion\nAsst .\"",
+          "options": [
+            "Teknoloji",
+            "Eğitim",
+            "Sağlık",
+            "Ekonomi"
+          ],
+          "correct": "Eğitim",
+          "explanation": "Cümle analizi: \"STA249 & STA 250 \nProbability and Statistics \nLect...\""
+        },
+        {
+          "id": "medium_1",
+          "question": "Bu cümlede bahsedilen ana konu nedir?\n\n\"Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.\"",
+          "options": [
+            "Teknoloji",
+            "Eğitim",
+            "Sağlık",
+            "Ekonomi"
+          ],
+          "correct": "Eğitim",
+          "explanation": "Cümle analizi: \"Prof. Abdullah YALÇINKAYA\nAnkara University , Facu...\""
+        }
+      ],
+      "hard": [
+        {
+          "id": "hard_0",
+          "question": "Bu metinde en sık geçen kelime hangisidir?",
+          "options": [
+            "median",
+            "mean",
+            "mode",
+            "data"
+          ],
+          "correct": "median",
+          "explanation": "En sık geçen kelime: \"median\" (50 kez)"
+        }
+      ]
+    },
+    "c2c7fb9c-59c6-491e-8bc6-5ee1bf1198c4": {
+      "easy": [
+        {
+          "id": "easy_0",
+          "question": "STA249 & STA 250 Probability and Statistics Lecture 2 : Measures of Tendency and DispersionSTA249 & STA 250 _____ and Statistics Lecture 2 : Measures of Tendency and Dispersion Asst .",
+          "options": [
+            "Probability",
+            "median",
+            "mean",
+            "mode"
+          ],
+          "correct": "Probability",
+          "explanation": "Doğru cevap: \"Probability\""
+        },
+        {
+          "id": "easy_1",
+          "question": "Prof. Abdullah YALÇINKAYA Ankara University , Faculty of Science , Department of Statistics ayalcinkaya @ ankara.edu.tr 2023 STA249 & STA250 Probability and Statistics Reference Book sSTA249 & STA250 Probability and Statistics Reference Book s This lecture notes are prepared according to the contents of « PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS » byWalpole , Myers , Myers andYe « APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS » byMontgomery andRunger « Statistics for Biomedical Engineers and Scientists How to Visualize and Analyze Data » _____ Andrew P. King and Robert J. Eckersley Central Tendency refers to the Middle of the Distribution Central Tendency Measures Mode Median Mean 1.MODE When it 's unique , the mode is the value that appears the most often in a data set and it can be used as a measure of central tendency But sometimes , there is no mode or there is more than one mode .",
+          "options": [
+            "by",
+            "median",
+            "mean",
+            "mode"
+          ],
+          "correct": "by",
+          "explanation": "Doğru cevap: \"by\""
+        }
+      ],
+      "medium": [
+        {
+          "id": "medium_0",
+          "question": "Bu cümlede bahsedilen ana konu nedir?\n\n\"STA249 & STA 250 \nProbability and Statistics \nLecture 2: Measures of Tendency\nand DispersionSTA249 & STA 250 \nProbability and Statistics \nLecture 2: Measures of Tendency\nand Dispersion\nAsst .\"",
+          "options": [
+            "Teknoloji",
+            "Eğitim",
+            "Sağlık",
+            "Ekonomi"
+          ],
+          "correct": "Eğitim",
+          "explanation": "Cümle analizi: \"STA249 & STA 250 \nProbability and Statistics \nLect...\""
+        },
+        {
+          "id": "medium_1",
+          "question": "Bu cümlede bahsedilen ana konu nedir?\n\n\"Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.\"",
+          "options": [
+            "Teknoloji",
+            "Eğitim",
+            "Sağlık",
+            "Ekonomi"
+          ],
+          "correct": "Eğitim",
+          "explanation": "Cümle analizi: \"Prof. Abdullah YALÇINKAYA\nAnkara University , Facu...\""
+        }
+      ],
+      "hard": [
+        {
+          "id": "hard_0",
+          "question": "Bu metinde en sık geçen kelime hangisidir?",
+          "options": [
+            "median",
+            "mean",
+            "mode",
+            "data"
+          ],
+          "correct": "median",
+          "explanation": "En sık geçen kelime: \"median\" (50 kez)"
+        }
+      ]
+    },
+    "6e02e9aa-61d1-4de8-bf41-4d2a1cd69697": {
+      "easy": [
+        {
+          "id": "easy_0",
+          "question": "STA249 & STA 250 _____ and Statistics Lecture 2 : Measures of Tendency and DispersionSTA249 & STA 250 Probability and Statistics Lecture 2 : Measures of Tendency and Dispersion Asst .",
+          "options": [
+            "Probability",
+            "median",
+            "mean",
+            "mode"
+          ],
+          "correct": "Probability",
+          "explanation": "Doğru cevap: \"Probability\""
+        },
+        {
+          "id": "easy_1",
+          "question": "Prof. Abdullah YALÇINKAYA Ankara University , Faculty of Science , Department of Statistics ayalcinkaya @ ankara.edu.tr 2023 STA249 & STA250 Probability and Statistics Reference Book sSTA249 & STA250 Probability and Statistics Reference Book s This lecture notes are prepared according to the contents of « PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS » byWalpole , Myers , Myers _____ « APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS » byMontgomery andRunger « Statistics for Biomedical Engineers and Scientists How to Visualize and Analyze Data » by Andrew P. King and Robert J. Eckersley Central Tendency refers to the Middle of the Distribution Central Tendency Measures Mode Median Mean 1.MODE When it 's unique , the mode is the value that appears the most often in a data set and it can be used as a measure of central tendency But sometimes , there is no mode or there is more than one mode .",
+          "options": [
+            "andYe",
+            "median",
+            "mean",
+            "mode"
+          ],
+          "correct": "andYe",
+          "explanation": "Doğru cevap: \"andYe\""
+        }
+      ],
+      "medium": [
+        {
+          "id": "medium_0",
+          "question": "Bu cümlede bahsedilen ana konu nedir?\n\n\"STA249 & STA 250 \nProbability and Statistics \nLecture 2: Measures of Tendency\nand DispersionSTA249 & STA 250 \nProbability and Statistics \nLecture 2: Measures of Tendency\nand Dispersion\nAsst .\"",
+          "options": [
+            "Teknoloji",
+            "Eğitim",
+            "Sağlık",
+            "Ekonomi"
+          ],
+          "correct": "Eğitim",
+          "explanation": "Cümle analizi: \"STA249 & STA 250 \nProbability and Statistics \nLect...\""
+        },
+        {
+          "id": "medium_1",
+          "question": "Bu cümlede bahsedilen ana konu nedir?\n\n\"Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.\"",
+          "options": [
+            "Teknoloji",
+            "Eğitim",
+            "Sağlık",
+            "Ekonomi"
+          ],
+          "correct": "Eğitim",
+          "explanation": "Cümle analizi: \"Prof. Abdullah YALÇINKAYA\nAnkara University , Facu...\""
+        }
+      ],
+      "hard": [
+        {
+          "id": "hard_0",
+          "question": "Bu metinde en sık geçen kelime hangisidir?",
+          "options": [
+            "median",
+            "mean",
+            "mode",
+            "data"
+          ],
+          "correct": "median",
+          "explanation": "En sık geçen kelime: \"median\" (50 kez)"
+        }
+      ]
+    },
+    "808120ea-e045-4ef5-92a3-d99dfd09df72": {
+      "easy": [
+        {
+          "id": "easy_0",
+          "question": "STA249 & STA 250 Probability and Statistics Lecture 2 : Measures of Tendency and DispersionSTA249 & STA 250 Probability and Statistics Lecture 2 : Measures of Tendency and _____ Asst .",
+          "options": [
+            "Dispersion",
+            "median",
+            "mean",
+            "mode"
+          ],
+          "correct": "Dispersion",
+          "explanation": "Doğru cevap: \"Dispersion\""
+        },
+        {
+          "id": "easy_1",
+          "question": "Prof. Abdullah YALÇINKAYA Ankara University , Faculty of Science , Department of Statistics ayalcinkaya @ ankara.edu.tr 2023 STA249 & STA250 Probability and Statistics Reference Book sSTA249 & STA250 Probability and Statistics Reference Book s This lecture notes are prepared according to the contents of « PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS _____ byWalpole , Myers , Myers andYe « APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS » byMontgomery andRunger « Statistics for Biomedical Engineers and Scientists How to Visualize and Analyze Data » by Andrew P. King and Robert J. Eckersley Central Tendency refers to the Middle of the Distribution Central Tendency Measures Mode Median Mean 1.MODE When it 's unique , the mode is the value that appears the most often in a data set and it can be used as a measure of central tendency But sometimes , there is no mode or there is more than one mode .",
+          "options": [
+            "»",
+            "median",
+            "mean",
+            "mode"
+          ],
+          "correct": "»",
+          "explanation": "Doğru cevap: \"»\""
+        }
+      ],
+      "medium": [
+        {
+          "id": "medium_0",
+          "question": "Bu cümlede bahsedilen ana konu nedir?\n\n\"STA249 & STA 250 \nProbability and Statistics \nLecture 2: Measures of Tendency\nand DispersionSTA249 & STA 250 \nProbability and Statistics \nLecture 2: Measures of Tendency\nand Dispersion\nAsst .\"",
+          "options": [
+            "Teknoloji",
+            "Eğitim",
+            "Sağlık",
+            "Ekonomi"
+          ],
+          "correct": "Eğitim",
+          "explanation": "Cümle analizi: \"STA249 & STA 250 \nProbability and Statistics \nLect...\""
+        },
+        {
+          "id": "medium_1",
+          "question": "Bu cümlede bahsedilen ana konu nedir?\n\n\"Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.\"",
+          "options": [
+            "Teknoloji",
+            "Eğitim",
+            "Sağlık",
+            "Ekonomi"
+          ],
+          "correct": "Eğitim",
+          "explanation": "Cümle analizi: \"Prof. Abdullah YALÇINKAYA\nAnkara University , Facu...\""
+        }
+      ],
+      "hard": [
+        {
+          "id": "hard_0",
+          "question": "Bu metinde en sık geçen kelime hangisidir?",
+          "options": [
+            "median",
+            "mean",
+            "mode",
+            "data"
+          ],
+          "correct": "median",
+          "explanation": "En sık geçen kelime: \"median\" (50 kez)"
+        }
+      ]
+    },
+    "baf28051-1899-46a5-b099-7f91a19f9e11": {
+      "easy": [
+        {
+          "id": "easy_0",
+          "question": "STA249 & STA 250 Probability and _____ Lecture 2 : Measures of Tendency and DispersionSTA249 & STA 250 Probability and Statistics Lecture 2 : Measures of Tendency and Dispersion Asst .",
+          "options": [
+            "Statistics",
+            "median",
+            "mean",
+            "mode"
+          ],
+          "correct": "Statistics",
+          "explanation": "Doğru cevap: \"Statistics\""
+        },
+        {
+          "id": "easy_1",
+          "question": "Prof. Abdullah YALÇINKAYA Ankara University , Faculty of Science , Department of Statistics ayalcinkaya @ ankara.edu.tr 2023 STA249 & STA250 Probability and Statistics Reference Book sSTA249 & STA250 Probability and Statistics Reference Book s This lecture notes are prepared according to the contents of « PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS » byWalpole , Myers , Myers andYe « APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS » byMontgomery andRunger « Statistics for Biomedical Engineers and Scientists How to Visualize and Analyze Data » by Andrew P. King and Robert J. Eckersley _____ Tendency refers to the Middle of the Distribution Central Tendency Measures Mode Median Mean 1.MODE When it 's unique , the mode is the value that appears the most often in a data set and it can be used as a measure of central tendency But sometimes , there is no mode or there is more than one mode .",
+          "options": [
+            "Central",
+            "median",
+            "mean",
+            "mode"
+          ],
+          "correct": "Central",
+          "explanation": "Doğru cevap: \"Central\""
+        }
+      ],
+      "medium": [
+        {
+          "id": "medium_0",
+          "question": "Bu cümlede bahsedilen ana konu nedir?\n\n\"STA249 & STA 250 \nProbability and Statistics \nLecture 2: Measures of Tendency\nand DispersionSTA249 & STA 250 \nProbability and Statistics \nLecture 2: Measures of Tendency\nand Dispersion\nAsst .\"",
+          "options": [
+            "Teknoloji",
+            "Eğitim",
+            "Sağlık",
+            "Ekonomi"
+          ],
+          "correct": "Eğitim",
+          "explanation": "Cümle analizi: \"STA249 & STA 250 \nProbability and Statistics \nLect...\""
+        },
+        {
+          "id": "medium_1",
+          "question": "Bu cümlede bahsedilen ana konu nedir?\n\n\"Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.\"",
+          "options": [
+            "Teknoloji",
+            "Eğitim",
+            "Sağlık",
+            "Ekonomi"
+          ],
+          "correct": "Eğitim",
+          "explanation": "Cümle analizi: \"Prof. Abdullah YALÇINKAYA\nAnkara University , Facu...\""
+        }
+      ],
+      "hard": [
+        {
+          "id": "hard_0",
+          "question": "Bu metinde en sık geçen kelime hangisidir?",
+          "options": [
+            "median",
+            "mean",
+            "mode",
+            "data"
+          ],
+          "correct": "median",
+          "explanation": "En sık geçen kelime: \"median\" (50 kez)"
+        }
+      ]
+    },
+    "ac3af740-6159-4951-adda-57c20343aeb9": {
+      "easy": [
+        {
+          "id": "easy_0",
+          "question": "STA249 & STA 250 Probability and Statistics Lecture 2 : Measures of Tendency and DispersionSTA249 & STA 250 Probability and Statistics Lecture 2 : _____ of Tendency and Dispersion Asst .",
+          "options": [
+            "Measures",
+            "median",
+            "mean",
+            "mode"
+          ],
+          "correct": "Measures",
+          "explanation": "Doğru cevap: \"Measures\""
+        },
+        {
+          "id": "easy_1",
+          "question": "Prof. Abdullah YALÇINKAYA Ankara University , Faculty of Science , Department of Statistics ayalcinkaya @ ankara.edu.tr 2023 STA249 & STA250 Probability and Statistics Reference Book sSTA249 & STA250 Probability and Statistics Reference Book s This lecture notes are prepared according to _____ contents of « PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS » byWalpole , Myers , Myers andYe « APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS » byMontgomery andRunger « Statistics for Biomedical Engineers and Scientists How to Visualize and Analyze Data » by Andrew P. King and Robert J. Eckersley Central Tendency refers to the Middle of the Distribution Central Tendency Measures Mode Median Mean 1.MODE When it 's unique , the mode is the value that appears the most often in a data set and it can be used as a measure of central tendency But sometimes , there is no mode or there is more than one mode .",
+          "options": [
+            "the",
+            "median",
+            "mean",
+            "mode"
+          ],
+          "correct": "the",
+          "explanation": "Doğru cevap: \"the\""
+        }
+      ],
+      "medium": [
+        {
+          "id": "medium_0",
+          "question": "Bu cümlede bahsedilen ana konu nedir?\n\n\"STA249 & STA 250 \nProbability and Statistics \nLecture 2: Measures of Tendency\nand DispersionSTA249 & STA 250 \nProbability and Statistics \nLecture 2: Measures of Tendency\nand Dispersion\nAsst .\"",
+          "options": [
+            "Teknoloji",
+            "Eğitim",
+            "Sağlık",
+            "Ekonomi"
+          ],
+          "correct": "Eğitim",
+          "explanation": "Cümle analizi: \"STA249 & STA 250 \nProbability and Statistics \nLect...\""
+        },
+        {
+          "id": "medium_1",
+          "question": "Bu cümlede bahsedilen ana konu nedir?\n\n\"Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.\"",
+          "options": [
+            "Teknoloji",
+            "Eğitim",
+            "Sağlık",
+            "Ekonomi"
+          ],
+          "correct": "Eğitim",
+          "explanation": "Cümle analizi: \"Prof. Abdullah YALÇINKAYA\nAnkara University , Facu...\""
+        }
+      ],
+      "hard": [
+        {
+          "id": "hard_0",
+          "question": "Bu metinde en sık geçen kelime hangisidir?",
+          "options": [
+            "median",
+            "mean",
+            "mode",
+            "data"
+          ],
+          "correct": "median",
+          "explanation": "En sık geçen kelime: \"median\" (50 kez)"
+        }
+      ]
+    },
+    "cd014717-2381-41af-9149-c3f1f2b5c99c": {
+      "easy": [
+        {
+          "id": "easy_0",
+          "question": "STA249 & STA 250 Probability and Statistics _____ 2 : Measures of Tendency and DispersionSTA249 & STA 250 Probability and Statistics Lecture 2 : Measures of Tendency and Dispersion Asst .",
+          "options": [
+            "Lecture",
+            "median",
+            "mean",
+            "mode"
+          ],
+          "correct": "Lecture",
+          "explanation": "Doğru cevap: \"Lecture\""
+        },
+        {
+          "id": "easy_1",
+          "question": "Prof. Abdullah YALÇINKAYA Ankara University , Faculty of Science , Department of Statistics ayalcinkaya @ ankara.edu.tr 2023 STA249 & STA250 Probability and Statistics Reference Book sSTA249 & STA250 Probability and Statistics Reference Book s This lecture notes are prepared according to the contents of « PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS » byWalpole , Myers , Myers andYe _____ APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS » byMontgomery andRunger « Statistics for Biomedical Engineers and Scientists How to Visualize and Analyze Data » by Andrew P. King and Robert J. Eckersley Central Tendency refers to the Middle of the Distribution Central Tendency Measures Mode Median Mean 1.MODE When it 's unique , the mode is the value that appears the most often in a data set and it can be used as a measure of central tendency But sometimes , there is no mode or there is more than one mode .",
+          "options": [
+            "«",
+            "median",
+            "mean",
+            "mode"
+          ],
+          "correct": "«",
+          "explanation": "Doğru cevap: \"«\""
+        }
+      ],
+      "medium": [
+        {
+          "id": "medium_0",
+          "question": "Bu cümlede bahsedilen ana konu nedir?\n\n\"STA249 & STA 250 \nProbability and Statistics \nLecture 2: Measures of Tendency\nand DispersionSTA249 & STA 250 \nProbability and Statistics \nLecture 2: Measures of Tendency\nand Dispersion\nAsst .\"",
+          "options": [
+            "Teknoloji",
+            "Eğitim",
+            "Sağlık",
+            "Ekonomi"
+          ],
+          "correct": "Eğitim",
+          "explanation": "Cümle analizi: \"STA249 & STA 250 \nProbability and Statistics \nLect...\""
+        },
+        {
+          "id": "medium_1",
+          "question": "Bu cümlede bahsedilen ana konu nedir?\n\n\"Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.\"",
+          "options": [
+            "Teknoloji",
+            "Eğitim",
+            "Sağlık",
+            "Ekonomi"
+          ],
+          "correct": "Eğitim",
+          "explanation": "Cümle analizi: \"Prof. Abdullah YALÇINKAYA\nAnkara University , Facu...\""
+        }
+      ],
+      "hard": [
+        {
+          "id": "hard_0",
+          "question": "Bu metinde en sık geçen kelime hangisidir?",
+          "options": [
+            "median",
+            "mean",
+            "mode",
+            "data"
+          ],
+          "correct": "median",
+          "explanation": "En sık geçen kelime: \"median\" (50 kez)"
+        }
+      ]
+    },
+    "9b775d57-4066-47ad-b8c2-bea59d01e2b9": {
+      "easy": [
+        {
+          "id": "easy_0",
+          "question": "STA249 & STA 250 Probability and Statistics Lecture 2 : Measures of Tendency and DispersionSTA249 & STA _____ Probability and Statistics Lecture 2 : Measures of Tendency and Dispersion Asst .",
+          "options": [
+            "250",
+            "median",
+            "mean",
+            "mode"
+          ],
+          "correct": "250",
+          "explanation": "Doğru cevap: \"250\""
+        },
+        {
+          "id": "easy_1",
+          "question": "Prof. Abdullah YALÇINKAYA Ankara University , Faculty of Science , Department of Statistics ayalcinkaya @ ankara.edu.tr 2023 STA249 & STA250 Probability and Statistics Reference Book sSTA249 & STA250 Probability and Statistics Reference Book s This lecture notes are prepared according to the contents of « PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS » byWalpole , Myers , Myers andYe « APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS » byMontgomery andRunger « Statistics for Biomedical Engineers and Scientists How to Visualize and Analyze Data » by Andrew P. King and Robert _____ Eckersley Central Tendency refers to the Middle of the Distribution Central Tendency Measures Mode Median Mean 1.MODE When it 's unique , the mode is the value that appears the most often in a data set and it can be used as a measure of central tendency But sometimes , there is no mode or there is more than one mode .",
+          "options": [
+            "J.",
+            "median",
+            "mean",
+            "mode"
+          ],
+          "correct": "J.",
+          "explanation": "Doğru cevap: \"J.\""
+        }
+      ],
+      "medium": [
+        {
+          "id": "medium_0",
+          "question": "Bu cümlede bahsedilen ana konu nedir?\n\n\"STA249 & STA 250 \nProbability and Statistics \nLecture 2: Measures of Tendency\nand DispersionSTA249 & STA 250 \nProbability and Statistics \nLecture 2: Measures of Tendency\nand Dispersion\nAsst .\"",
+          "options": [
+            "Teknoloji",
+            "Eğitim",
+            "Sağlık",
+            "Ekonomi"
+          ],
+          "correct": "Eğitim",
+          "explanation": "Cümle analizi: \"STA249 & STA 250 \nProbability and Statistics \nLect...\""
+        },
+        {
+          "id": "medium_1",
+          "question": "Bu cümlede bahsedilen ana konu nedir?\n\n\"Prof. Abdullah YALÇINKAYA\nAnkara University , Faculty of Science , Department of Statistics\nayalcinkaya@ankara.edu.tr\n2023\nSTA249 & STA250 \nProbability and Statistics \nReference Book sSTA249 & STA250 \nProbability and Statistics \nReference Book s\nThis lecture notes are prepared according to the contents of  \n«PROBABILITY & STATISTICS FOR ENGINEERS & SCIENTISTS»\nbyWalpole, Myers, Myers andYe\n«APPLIED STATISTICS AND PROBABILITY FOR ENGINEERS»\nbyMontgomery andRunger\n«Statistics for Biomedical Engineers and Scientists How to Visualize and \nAnalyze Data» by Andrew P. King and Robert J. Eckersley\nCentral Tendency refers to the Middle of \nthe Distribution\n\nCentral Tendency Measures\nMode\nMedian\nMean\n1.MODE\nWhen it's unique, the mode is the value that \nappears the most often in a data set and it can be \nused as a measure of central tendency\nBut sometimes, there is no mode or there is more \nthan one mode.\"",
+          "options": [
+            "Teknoloji",
+            "Eğitim",
+            "Sağlık",
+            "Ekonomi"
+          ],
+          "correct": "Eğitim",
+          "explanation": "Cümle analizi: \"Prof. Abdullah YALÇINKAYA\nAnkara University , Facu...\""
+        }
+      ],
+      "hard": [
+        {
+          "id": "hard_0",
+          "question": "Bu metinde en sık geçen kelime hangisidir?",
+          "options": [
+            "median",
+            "mean",
+            "mode",
+            "data"
+          ],
+          "correct": "median",
+          "explanation": "En sık geçen kelime: \"median\" (50 kez)"
+        }
+      ]
+    }
+  },
+  "progress": {
+    "a5dfa4dd-0559-4622-8735-2f0f85b2b828": {
+      "completed_quizzes": [
+        {
+          "date": "2025-09-21T18:28:58.151217",
+          "score": 0,
+          "total": 5
+        },
+        {
+          "date": "2025-09-21T18:29:22.241035",
+          "score": 2,
+          "total": 5
+        },
+        {
+          "date": "2025-09-21T18:36:19.844663",
+          "score": 0,
+          "total": 5
+        },
+        {
+          "date": "2025-09-21T18:36:32.531449",
+          "score": 2,
+          "total": 5
+        },
+        {
+          "date": "2025-09-21T18:36:53.466898",
+          "score": 0,
+          "total": 5
+        },
+        {
+          "date": "2025-09-21T18:37:11.421853",
+          "score": 0,
+          "total": 5
+        }
+      ],
+      "wrong_answers": [
+        "easy_0",
+        "easy_1",
+        "medium_0",
+        "medium_1",
+        "hard_0",
+        "medium_0",
+        "medium_1",
+        "hard_0",
+        "easy_0",
+        "easy_1",
+        "medium_0",
+        "medium_1",
+        "hard_0",
+        "medium_0",
+        "medium_1",
+        "hard_0",
+        "easy_0",
+        "easy_1",
+        "medium_0",
+        "medium_1",
+        "hard_0",
+        "easy_0",
+        "easy_1",
+        "medium_0",
+        "medium_1",
+        "hard_0"
+      ],
+      "last_attempt": "2025-09-21T18:37:11.421853"
+    },
+    "a7a2f517-12df-4d63-8638-925b9271ae0e": {
+      "completed_quizzes": [
+        {
+          "date": "2025-09-21T18:27:54.438235",
+          "score": 0,
+          "total": 5
+        }
+      ],
+      "wrong_answers": [
+        "easy_0",
+        "easy_1",
+        "medium_0",
+        "medium_1",
+        "hard_0"
+      ],
+      "last_attempt": "2025-09-21T18:27:54.438235"
+    },
+    "3fa79007-00bd-41e8-98ec-6f01a9ed012c": {
+      "completed_quizzes": [],
+      "wrong_answers": [],
+      "last_attempt": null
+    },
+    "c2c7fb9c-59c6-491e-8bc6-5ee1bf1198c4": {
+      "completed_quizzes": [],
+      "wrong_answers": [],
+      "last_attempt": null
+    },
+    "6e02e9aa-61d1-4de8-bf41-4d2a1cd69697": {
+      "completed_quizzes": [],
+      "wrong_answers": [],
+      "last_attempt": null
+    },
+    "808120ea-e045-4ef5-92a3-d99dfd09df72": {
+      "completed_quizzes": [
+        {
+          "date": "2025-09-21T18:30:28.157556",
+          "score": 0,
+          "total": 5
+        }
+      ],
+      "wrong_answers": [
+        "easy_0",
+        "easy_1",
+        "medium_0",
+        "medium_1",
+        "hard_0"
+      ],
+      "last_attempt": "2025-09-21T18:30:28.157556"
+    },
+    "baf28051-1899-46a5-b099-7f91a19f9e11": {
+      "completed_quizzes": [],
+      "wrong_answers": [],
+      "last_attempt": null
+    },
+    "ac3af740-6159-4951-adda-57c20343aeb9": {
+      "completed_quizzes": [],
+      "wrong_answers": [],
+      "last_attempt": null
+    },
+    "cd014717-2381-41af-9149-c3f1f2b5c99c": {
+      "completed_quizzes": [],
+      "wrong_answers": [],
+      "last_attempt": null
+    },
+    "9b775d57-4066-47ad-b8c2-bea59d01e2b9": {
+      "completed_quizzes": [],
+      "wrong_answers": [],
+      "last_attempt": null
+    }
+  }
+}
