@@ -38,7 +38,8 @@ from flask_sqlalchemy import SQLAlchemy
 
 # NLTK verilerini indir
 nltk.download('punkt', quiet=True)
-nltk.download('stopwords', quiet=True)
+
+
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your-secret-key-here'
@@ -48,9 +49,14 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
 
+nltk.download('stopwords', quiet=True)
+
+
 # NLTK verilerini indir
 nltk.download('punkt', quiet=True)
 nltk.download('stopwords', quiet=True)
+nltk.download('punkt_tab', quiet=True)
+
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your-secret-key-here'
@@ -450,7 +456,7 @@ def submit_quiz(pdf_id):
         # Cevapları kontrol et
         results = []
         correct_count = 0
-        
+
         for quiz in quiz_objects:
             user_answer = answers.get(quiz.question_id, '')
             is_correct = user_answer == quiz.correct_answer
